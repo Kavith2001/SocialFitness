@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.user-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.post-profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-comment-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.comment-div {
+    background-color: rgb(219, 218, 218);
+}
+
+.react-icons:hover {
+    color: #0026ff;
+    transform: scale(1.1);
+}
+
+.newusercard {
+    transition: transform 0.2s ease;
+    background-color: rgb(241, 241, 241);
+}
+
+.newusercard:hover {
+    transform: scale(1.1);
+}
+
+.post-card {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #1100ff;
+}
+
+.create-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #1100ff;
+}
+
+.tab-profile {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #929191;
+    background-color: #cccccc7a;
+}
+
+.input-width-register {
+    width: 400px;
+}
+
+.input-width-login {
+    width: 370px;
+}
+
+.collage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 5px; /* Adjust the gap between columns */
+}
+
+.row {
+    display: flex;
+}
+
+.collage-image {
+    width: 80%; /* Ensure images fill the column */
+    height: 100%; /* Maintain aspect ratio */
+}
+
+.collage {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.collage-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255); /* Add a black background */
+}
+
+.collage-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid rgba(139, 139, 139, 0.788) 2px;
+}
+
+.btn-follow {
+    border: none;
+    color: #1100ff;
+    background-color: white;
+    border: solid 1px #1100ff;
+}
+
+.btn-follow:hover {
+    background-color: #1100ff;
+    color: white;
+
+    transition: 0.5s;
+}
